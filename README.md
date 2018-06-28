@@ -14,13 +14,16 @@ To use this component, add the following to your configuration.yaml file:
   # Example configuration.yaml entry
   switch:
     - platform: mcp23017_gpio
+      invert_logic: true
       switches:
         - address: 0x20
           register: A
           index: 0
+          name: Track Lighting
         - address: 0x24
           register: B
           index: 7
+          name: Overhead Fan
 ```
 Configuration Variables:
 + **invert_logic** (Optional): If true, inverts the output logic to ACTIVE LOW. Default is false (ACTIVE HIGH).
