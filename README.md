@@ -1,5 +1,5 @@
 # I2C GPIO
-*Home-Assistant component for Raspberry Pi GPIO via the available I2C bus*
+*Home-Assistant component and platforms for Raspberry Pi GPIO via the available I2C bus*
 
 ## I2C GPIO Component
 The `i2c_gpio` component shares the general functionality found in the component, `rpi_gpio`. It purpose is to expand the amount of available I/O, which in `rpi_gpio` is limited to the roughly 30 pins on the Pi itself (the exact number depending on model) to the literally 100s of pins available through the integration of GPIO expansion chips, like the MCP23017 –– the MCP23017 adds 16 digital I/Os on its own and can be daisey chained for up to 124 additional pins. 
