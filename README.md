@@ -1,5 +1,4 @@
-**i2c_gpio**
-
+# i2c_gpio
 *Home-Assistant component for Raspberry Pi GPIO via the available I2C bus*
 
 ## I2C GPIO
